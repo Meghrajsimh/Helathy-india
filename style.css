@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-side{
+    width: 200px;
+    height: 70px;
+    position: relative;
+    top:30px;
+    left: 12px;
+    display: inline-block;
+}
+.left-side img{
+    width:162px;
+    height: 128px;
+    position: relative;
+    left: 27px;
+
+}
+.h3{
+   position: relative;
+   left: 10px;
+   width: 217px;
+   text-align: center;
+    font-family: 'Merriweather', serif;
+}
+#h3{
+    position: relative;
+    left:58px;
+    font-family: 'Merriweather', serif;
+
+}
+.mid {
+    display: block;
+    width: 70%;
+    height: 70px;
+    text-align: center;
+    margin: -40px 170px;
+    padding: 1px 8px;
+    background-color: #07ffe84d;
+    position:absolute;
+    top: 200px;
+    left: 115px;
+}
+.nav {
+    display: inline-block; 
+    list-style: none;
+    position: relative;
+    top:20px;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none;
+    margin: 2px 60px;
+    padding: 20px 5px;
+    font-family: 'Vast Shadow';
+}
+.nav li a:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 54px;
+    background-color: black;
+    right: 46px;
+}
+
+.btn {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 10px 44px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.right :hover{
+    background-color: #0e8080;
+}
+.btn a {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.rightup {
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    color: whitesmoke; 
+    background-color: black;
+    right: 20px;
+    cursor: pointer;
+}
+.main {
+    margin: 182px 12px;
+    width: 77%;
+    float: right;
+    padding: 0px 30px;
+    position: relative;
+    top:-5px;
+}
+
+.continer h1 {
+    position: absolute;
+    top: 510px;
+    background-color: rgb(90, 155, 240);
+    padding: 0px 50px;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.img{ 
+    height: 810px;
+    padding-bottom: 100px;
+    width: 99%;
+    margin: -98px 14px;
+}
+.img2 img{
+    position:absolute;
+    top:100px;
+    width: 120%;
+}
+.img3{
+    position: absolute;
+    top:100px;
+}
+.content {
+    font-size: 18px;
+    /* font-family: 'Zen Kaku Gothic Antique', sans-serif; */
+    font-weight: 600;
+    text-align: justify;
+    margin: 0px 7px;
+}
+#h31{
+    width: 78%;
+}
+.main1 {
+    margin: -196px 12px;
+    width: 104%;
+    float: right;
+    padding: 0px 30px;
+    height: 100px;
+    position: relative;
+    top:308px;
+    display: grid;
+}
+
+.continer1 h1 {
+    position: absolute;
+    top: 509px;
+    background-color: rgb(90, 155, 240);
+    padding: 0px 50px;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    ;
+}
+
+.continer2 {
+    border: 1px solid red;
+    padding: 20px 150px;
+    background-color: #eee9e9;
+    transform: skew(30deg);
+}
+
+#section {
+    grid-area: section;
+}
+#section h2{
+    color:#0e8080;
+}
+#section h3{
+    color: #f5a623;
+}
+#nav2{
+    width: 100%;
+    background-color: aqua;
+    height: 150px;
+    display: inline-block;
+     position:absolute;
+    top:3620px; 
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-top: 1.5px solid black;
+    box-shadow:-6.5px 4.5px 23.5px rgba(49 ,97 ,102, 1);
+}
+
+#nav2 li a{
+    color: black;
+    text-decoration: none;
+    margin: 2px 60px;
+    color: black;
+    border-radius: 30px;
+    position:relative;
+    top:20px;
+    left: 20px;
+    font-size: larger;
+    font-family:'Zen Antique Soft', serif;;
+}
+#nav2 li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.media-icons{
+    width: 50%;
+    position:relative;
+    top: 3700px;
+    left: 45%;
+    letter-spacing: 14px;
+    justify-content: center;
+}
+.media-icons a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.active{
+    background-color:rgb(63, 167, 167);
+    padding: 12px;
+}
+footer{
+    position: relative;
+    top:167px;
+}
+hr{
+    color: rgb(62, 62, 146);
+}
+#two{
+    position: relative;
+    top:30px;
+}
+#four{
+    position: relative;
+    top:30px;
+} 
+p{
+        padding-bottom:14px ;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-weight: 600;
+}
+.main li{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+
